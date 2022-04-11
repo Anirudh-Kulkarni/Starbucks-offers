@@ -40,7 +40,7 @@ This repo contains 4 files.There is a notebook available here to showcase work r
 
 ## Results<a name="results"></a>
 
-The main observations of the code are published [here]().
+The main observations of the code are published [here](https://medium.com/@vigyaan/what-makes-starbucks-customers-opt-in-for-offers-92dcde588169).
 
 In brief, the offers seem to be slightly more effective for the younger age group (20-40 years), lower income group and for men. Furthermore, in all the three datasets, it turns out that the number of membership days is a very important feature. Presumably, the longer one is a member, the more likely they will respond to the offer they receive. Amount, age and income are, in general, other important factors. Gender and social channel used to communicate the offers seem to matter less. 
 
