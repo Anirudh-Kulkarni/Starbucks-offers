@@ -1,4 +1,4 @@
-# Starbucks-offers
+# Analyzing Starbucks Offers
 This project was a part of the [Udacity Data Scientist Nanodegree program](https://www.udacity.com/course/data-scientist-nanodegree--nd025). In this project, I analysed the Starbucks transactions dataset to understand which offers were effective to get users to buy more coffee.
 
 ## Starbucks Capstone Challenge: Using Starbucks app user data to predict effective offers
