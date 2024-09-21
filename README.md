@@ -1,13 +1,11 @@
 # Starbucks-offers
-Udacity Data Scientist Nanodegree Capstone Project: Starbucks offers analysis
-
-This project is an analysis of the Starbucks transactions dataset.
+This project was a part of the [Udacity Data Scientist Nanodegree program](https://www.udacity.com/course/data-scientist-nanodegree--nd025). In this project, I analysed the Starbucks transactions dataset to understand which offers were effective to get users to buy more coffee.
 
 ## Starbucks Capstone Challenge: Using Starbucks app user data to predict effective offers
  
 ### Table of Contents
 
-1. [Installation](#installation)
+1. [Requisites](#requisites)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Results](#results)
@@ -15,7 +13,7 @@ This project is an analysis of the Starbucks transactions dataset.
 
 
 
-## Installation <a name="installation"></a>
+## Requisites <a name="requisites"></a>
 
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
@@ -29,10 +27,10 @@ In this project, I use the data to answer 2 business questions:
   - 1. What are the main features influencing the effectiveness of an offer on the Starbucks app?
   - 2. Could the data provided, namely offer characteristics and user demographics, predict whether a user would take up an offer?
 
-To answer the above 2 questions, I firslty defined what an effective offer means in this context. I then created 3 models for the data for the 3 different offer types: Buy One Get One Free (BOGO), Discount , and Informational (provides information about products). I then deployed ML models to understand which features are important.
+To answer the above 2 questions, I firstly defined what an effective offer means in this context. I then created 3 models for the data for the 3 different offer types: Buy One Get One Free (BOGO), Discount , and Informational (provides information about products). I then deployed Machine Learning (ML) models to understand which features are important.
 
 ### File Descriptions <a name="files"></a>
-This repo contains 4 files.There is a notebook available here to showcase work related to the above questions and wrangling process. There are 3 data files used to address the above qustions.
+This repository contains 4 files. There is a notebook available here to showcase work related to the above questions and wrangling process. There are 3 data files used to address the above qustions.
 
 1. portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
 2. profile.json - demographic data for each customer
@@ -40,7 +38,7 @@ This repo contains 4 files.There is a notebook available here to showcase work r
 
 ## Results<a name="results"></a>
 
-The main observations of the code are published [here](https://medium.com/@vigyaan/what-makes-starbucks-customers-opt-in-for-offers-92dcde588169).
+The main observations of the code are published in this blog post [here](https://medium.com/@vigyaan/what-makes-starbucks-customers-opt-in-for-offers-92dcde588169).
 
 In brief, the offers seem to be slightly more effective for the younger age group (20-40 years), lower income group and for men. Furthermore, in all the three datasets, it turns out that the number of membership days is a very important feature. Presumably, the longer one is a member, the more likely they will respond to the offer they receive. Amount, age and income are, in general, other important factors. Gender and social channel used to communicate the offers seem to matter less. 
 
